@@ -304,41 +304,26 @@ timeline model =
             Element.html >> Element.el attributes
 
         viewTimelineScientist scientist =
-            let
-                underlineObject =
-                    Element.el
-                        [ Background.color Util.lightBlue
-                        , Element.width Element.fill
-                        , Element.height <|
-                            case model.page of
-                                Scientist s ->
-                                    if s == scientist then
-                                        Element.px 5
-
-                                    else
-                                        Element.px 0
-
-                                _ ->
-                                    Element.px 0
-                        ]
-                        Element.none
-                        |> Element.el
-                            [ Element.alignBottom
-                            , Element.width Element.fill
-                            ]
-            in
             Element.paragraph
                 [ Element.width Element.shrink
                 , Element.centerY
                 , Element.centerX
-                , Element.behindContent underlineObject
                 , Element.padding 4
                 , Font.center
                 , Font.size 18
+                , case model.page of
+                    Scientist s ->
+                        if s == scientist then
+                            Font.bold
+
+                        else
+                            Font.unitalicized
+
+                    _ ->
+                        Font.unitalicized
                 , Util.unselectable
                 ]
-                [ Element.text <| Scientist.toString scientist
-                ]
+                [ Element.text <| Scientist.toString scientist ]
                 |> Element.el
                     [ Element.width Element.fill
                     , Element.pointer

@@ -87,6 +87,6 @@ schrodinger : Description
 schrodinger =
     { name = "Erwin Schrödinger: Quantum Mechanical Model"
     , date = 1926
-    , description = "Schrödinger develops a system of wave mechanics based upon de Broglie’s matter waves, giving rise to the electron cloud. Here, one would not be able to deduce the position of an electron, but equations describing the probability of finding an electron at a certain position."
+    , description = "Schrödinger develops a system of wave mechanics based upon de Broglie’s matter waves, giving rise to the electron cloud. Here, one would not be able to deduce the position of an electron, but use equations that describe the probability of finding an electron at a certain position."
     , note = Nothing
     }
