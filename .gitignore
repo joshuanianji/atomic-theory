@@ -3,3 +3,5 @@
 elm.js
 elm.min.js
 /elm-stuff/
+
+build/
