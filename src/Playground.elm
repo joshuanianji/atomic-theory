@@ -1522,7 +1522,7 @@ colorClamp number =
 
 
 render : Screen -> List Shape -> Html.Html msg
-render screen shapes =
+render _ shapes =
     svg
         [ viewBox "-150 -150 300 300"
         , width "100%"
