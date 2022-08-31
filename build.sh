@@ -3,3 +3,4 @@ uglifyjs elm.js --compress 'pure_funcs=[F2,F3,F4,F5,F6,F7,F8,F9,A2,A3,A4,A5,A6,A
 mkdir build
 cp elm.min.js build/elm.min.js
 cp index.html build/index.html
+cp icon.png build/icon.png
