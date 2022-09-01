@@ -4,7 +4,7 @@ A short history of the Atomic Model, created for my Grade 12 Physics class.
 
 ## Online
 
-You can see the website on this link: [https://joshuaji.com/projects/atomic-models/](https://joshuaji.com/projects/atomic-models/)
+You can see the website on this link: [https://joshuaji.com/atomic-theory/](https://joshuaji.com/atomic-theory/)
 
 ## Offline
 
